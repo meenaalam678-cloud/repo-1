@@ -1,0 +1,158 @@
+=============================
+LINUX COMMANDS - PRACTICE NOTES
+=============================
+
+1. pwd
+Purpose:
+- Displays the current working directory.
+
+Example:
+pwd
+
+
+----------------------------------------
+
+2. ls
+Purpose:
+- Lists files and directories.
+
+Examples:
+ls
+ls -l
+ls -a
+
+
+----------------------------------------
+
+3. cd
+Purpose:
+- Changes the current directory.
+
+Examples:
+cd Documents
+cd ..
+cd ~
+
+----------------------------------------
+
+4. mkdir
+Purpose:
+- Creates a new directory.
+
+Example:
+mkdir Linux-Practice
+
+----------------------------------------
+
+5. touch
+Purpose:
+- Creates a new empty file.
+
+Example:
+touch notes.txt
+
+----------------------------------------
+
+6. cp
+Purpose:
+- Copies files or directories.
+
+Examples:
+cp file1.txt file2.txt
+cp -r folder1 folder2
+
+----------------------------------------
+
+7. mv
+Purpose:
+- Moves or renames files.
+
+Examples:
+mv file.txt Documents/
+mv oldname.txt newname.txt
+
+----------------------------------------
+
+8. rm
+Purpose:
+- Removes files or directories.
+
+Examples:
+rm file.txt
+rm -r foldername
+
+----------------------------------------
+
+9. cat
+Purpose:
+- Displays the contents of a file.
+
+Example:
+cat notes.txt
+
+----------------------------------------
+
+10. clear
+Purpose:
+- Clears the terminal screen.
+
+Example:
+clear
+
+----------------------------------------
+
+11. whoami
+Purpose:
+- Displays the current logged-in user.
+
+Example:
+whoami
+
+----------------------------------------
+
+12. date
+Purpose:
+- Shows the current date and time.
+
+Example:
+date
+
+----------------------------------------
+
+13. history
+Purpose:
+- Displays previously executed commands.
+
+Example:
+history
+
+----------------------------------------
+
+14. chmod
+Purpose:
+- Changes file permissions.
+
+Example:
+chmod 755 script.sh
+
+----------------------------------------
+
+15. man
+Purpose:
+- Displays the manual page for a command.
+
+Example:
+man ls
+
+----------------------------------------
+
+Learning Goals:
+✔ Learn basic Linux commands
+✔ Practice file and directory management
+✔ Understand permissions
+✔ Improve terminal navigation skills
+✔ Build a strong Linux foundation for DevOps
+
+Author:
+Meena Alam
+GitHub Linux Practice Repository

@@ -1,0 +1,149 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.7;
+}
+
+/* Header */
+header{
+    background:linear-gradient(135deg,#2563eb,#1e40af);
+    color:#fff;
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:2.8rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+    opacity:0.9;
+}
+
+/* Container */
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+}
+
+/* Cards */
+.card{
+    background:#fff;
+    margin-bottom:30px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.12);
+}
+
+.card h2{
+    color:#2563eb;
+    margin-bottom:15px;
+    border-left:5px solid #2563eb;
+    padding-left:12px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+table th{
+    background:#2563eb;
+    color:#fff;
+    padding:15px;
+}
+
+table td{
+    padding:14px;
+    border-bottom:1px solid #ddd;
+}
+
+table tr:nth-child(even){
+    background:#f8f9fc;
+}
+
+table tr:hover{
+    background:#eef4ff;
+}
+
+/* Code Block */
+code{
+    background:#eef2ff;
+    color:#d63384;
+    padding:4px 8px;
+    border-radius:6px;
+    font-size:15px;
+}
+
+/* Lists */
+ul{
+    margin-top:15px;
+    padding-left:20px;
+}
+
+ul li{
+    margin-bottom:10px;
+}
+
+/* Buttons */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:#2563eb;
+    color:#fff;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+/* Footer */
+footer{
+    background:#1f2937;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    table{
+        display:block;
+        overflow-x:auto;
+    }
+
+    .card{
+        padding:20px;
+    }
+}
